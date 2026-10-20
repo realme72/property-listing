@@ -1,6 +1,6 @@
 package com.example;
 
-enum SortBy {
+public enum SortBy {
     PRICE,
     BEDROOMS
 }

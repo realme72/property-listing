@@ -7,7 +7,7 @@ public class SearchCriteria {
     private String pincode;
     private BigDecimal minPrice;
     private BigDecimal maxPrice;
-    private Integer Bedrooms;
+    private Integer bedrooms;
     
     private SortBy sortBy;
     private SortOrder sortOrder;
@@ -69,11 +69,11 @@ public class SearchCriteria {
     }
 
     public Integer getBedrooms() {
-        return Bedrooms;
+        return bedrooms;
     }
 
     public void setBedrooms(Integer bedrooms) {
-        Bedrooms = bedrooms;
+        this.bedrooms = bedrooms;
     }
 
 }

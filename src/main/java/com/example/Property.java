@@ -19,7 +19,8 @@ public class Property {
             BigDecimal price,
             int bedrooms,
             Address address,
-            String ownerId) {
+            String ownerId
+        ) {
 
         this.id = UUID.randomUUID().toString();
         this.title = title;

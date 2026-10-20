@@ -1,7 +1,7 @@
 package com.example;
 
 
-enum SortOrder {
+public enum SortOrder {
     ASC,
     DESC
 }

@@ -59,7 +59,7 @@ public class SearchService {
             );
         }
         
-        if (bedrooms != null && bedrooms > 0) {
+        if (bedrooms != null) {
             predicates.add(property -> property.getBedrooms() == bedrooms);
         }
 
